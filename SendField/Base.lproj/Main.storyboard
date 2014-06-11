@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxU-H1-ejD">
-                                <rect key="frame" x="94" y="307" width="133" height="30"/>
+                                <rect key="frame" x="167" y="307" width="133" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="133" id="qi8-tG-nIg"/>
@@ -39,7 +39,7 @@
                             <constraint firstItem="O4N-mt-oCZ" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Ybh-6A-hZL"/>
                             <constraint firstAttribute="trailing" secondItem="O4N-mt-oCZ" secondAttribute="trailing" constant="20" symbolic="YES" id="YhS-2y-Cnr"/>
                             <constraint firstItem="xxU-H1-ejD" firstAttribute="top" secondItem="O4N-mt-oCZ" secondAttribute="bottom" constant="8" symbolic="YES" id="eTD-AW-33h"/>
-                            <constraint firstItem="O4N-mt-oCZ" firstAttribute="centerX" secondItem="xxU-H1-ejD" secondAttribute="centerX" id="jxX-lz-MaF"/>
+                            <constraint firstItem="O4N-mt-oCZ" firstAttribute="trailing" secondItem="xxU-H1-ejD" secondAttribute="trailing" id="jxX-lz-MaF"/>
                         </constraints>
                     </view>
                 </viewController>
