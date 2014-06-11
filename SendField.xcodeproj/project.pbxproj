@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71580FAD1948E98F006ECE83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71580FAC1948E98F006ECE83 /* Foundation.framework */; };
+		71580FAF1948E98F006ECE83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71580FAE1948E98F006ECE83 /* CoreGraphics.framework */; };
+		71580FB11948E98F006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71580FB01948E98F006ECE83 /* UIKit.framework */; };
+		71580FB71948E98F006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71580FB51948E98F006ECE83 /* InfoPlist.strings */; };
+		71580FB91948E98F006ECE83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71580FB81948E98F006ECE83 /* main.m */; };
+		71580FBD1948E98F006ECE83 /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71580FBC1948E98F006ECE83 /* SFAppDelegate.m */; };
+		71580FC01948E98F006ECE83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71580FBE1948E98F006ECE83 /* Main.storyboard */; };
+		71580FC31948E98F006ECE83 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71580FC21948E98F006ECE83 /* SFViewController.m */; };
+		71580FC51948E98F006ECE83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71580FC41948E98F006ECE83 /* Images.xcassets */; };
+		71580FCC1948E98F006ECE83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71580FCB1948E98F006ECE83 /* XCTest.framework */; };
+		71580FCD1948E98F006ECE83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71580FAC1948E98F006ECE83 /* Foundation.framework */; };
+		71580FCE1948E98F006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71580FB01948E98F006ECE83 /* UIKit.framework */; };
+		71580FD61948E98F006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71580FD41948E98F006ECE83 /* InfoPlist.strings */; };
+		71580FD81948E98F006ECE83 /* SendFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71580FD71948E98F006ECE83 /* SendFieldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71580FCF1948E98F006ECE83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71580FA11948E98F006ECE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71580FA81948E98F006ECE83;
+			remoteInfo = SendField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71580FA91948E98F006ECE83 /* SendField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71580FAC1948E98F006ECE83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71580FAE1948E98F006ECE83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71580FB01948E98F006ECE83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71580FB41948E98F006ECE83 /* SendField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendField-Info.plist"; sourceTree = "<group>"; };
+		71580FB61948E98F006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71580FB81948E98F006ECE83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71580FBA1948E98F006ECE83 /* SendField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendField-Prefix.pch"; sourceTree = "<group>"; };
+		71580FBB1948E98F006ECE83 /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		71580FBC1948E98F006ECE83 /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		71580FBF1948E98F006ECE83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71580FC11948E98F006ECE83 /* SFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		71580FC21948E98F006ECE83 /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		71580FC41948E98F006ECE83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71580FCA1948E98F006ECE83 /* SendFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71580FCB1948E98F006ECE83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		71580FD31948E98F006ECE83 /* SendFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendFieldTests-Info.plist"; sourceTree = "<group>"; };
+		71580FD51948E98F006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71580FD71948E98F006ECE83 /* SendFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendFieldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71580FA61948E98F006ECE83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71580FAF1948E98F006ECE83 /* CoreGraphics.framework in Frameworks */,
+				71580FB11948E98F006ECE83 /* UIKit.framework in Frameworks */,
+				71580FAD1948E98F006ECE83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71580FC71948E98F006ECE83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71580FCC1948E98F006ECE83 /* XCTest.framework in Frameworks */,
+				71580FCE1948E98F006ECE83 /* UIKit.framework in Frameworks */,
+				71580FCD1948E98F006ECE83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71580FA01948E98F006ECE83 = {
+			isa = PBXGroup;
+			children = (
+				71580FB21948E98F006ECE83 /* SendField */,
+				71580FD11948E98F006ECE83 /* SendFieldTests */,
+				71580FAB1948E98F006ECE83 /* Frameworks */,
+				71580FAA1948E98F006ECE83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71580FAA1948E98F006ECE83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71580FA91948E98F006ECE83 /* SendField.app */,
+				71580FCA1948E98F006ECE83 /* SendFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71580FAB1948E98F006ECE83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71580FAC1948E98F006ECE83 /* Foundation.framework */,
+				71580FAE1948E98F006ECE83 /* CoreGraphics.framework */,
+				71580FB01948E98F006ECE83 /* UIKit.framework */,
+				71580FCB1948E98F006ECE83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71580FB21948E98F006ECE83 /* SendField */ = {
+			isa = PBXGroup;
+			children = (
+				71580FBB1948E98F006ECE83 /* SFAppDelegate.h */,
+				71580FBC1948E98F006ECE83 /* SFAppDelegate.m */,
+				71580FBE1948E98F006ECE83 /* Main.storyboard */,
+				71580FC11948E98F006ECE83 /* SFViewController.h */,
+				71580FC21948E98F006ECE83 /* SFViewController.m */,
+				71580FC41948E98F006ECE83 /* Images.xcassets */,
+				71580FB31948E98F006ECE83 /* Supporting Files */,
+			);
+			path = SendField;
+			sourceTree = "<group>";
+		};
+		71580FB31948E98F006ECE83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71580FB41948E98F006ECE83 /* SendField-Info.plist */,
+				71580FB51948E98F006ECE83 /* InfoPlist.strings */,
+				71580FB81948E98F006ECE83 /* main.m */,
+				71580FBA1948E98F006ECE83 /* SendField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71580FD11948E98F006ECE83 /* SendFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				71580FD71948E98F006ECE83 /* SendFieldTests.m */,
+				71580FD21948E98F006ECE83 /* Supporting Files */,
+			);
+			path = SendFieldTests;
+			sourceTree = "<group>";
+		};
+		71580FD21948E98F006ECE83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71580FD31948E98F006ECE83 /* SendFieldTests-Info.plist */,
+				71580FD41948E98F006ECE83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71580FA81948E98F006ECE83 /* SendField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71580FDB1948E98F006ECE83 /* Build configuration list for PBXNativeTarget "SendField" */;
+			buildPhases = (
+				71580FA51948E98F006ECE83 /* Sources */,
+				71580FA61948E98F006ECE83 /* Frameworks */,
+				71580FA71948E98F006ECE83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendField;
+			productName = SendField;
+			productReference = 71580FA91948E98F006ECE83 /* SendField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71580FC91948E98F006ECE83 /* SendFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71580FDE1948E98F006ECE83 /* Build configuration list for PBXNativeTarget "SendFieldTests" */;
+			buildPhases = (
+				71580FC61948E98F006ECE83 /* Sources */,
+				71580FC71948E98F006ECE83 /* Frameworks */,
+				71580FC81948E98F006ECE83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71580FD01948E98F006ECE83 /* PBXTargetDependency */,
+			);
+			name = SendFieldTests;
+			productName = SendFieldTests;
+			productReference = 71580FCA1948E98F006ECE83 /* SendFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71580FA11948E98F006ECE83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					71580FC91948E98F006ECE83 = {
+						TestTargetID = 71580FA81948E98F006ECE83;
+					};
+				};
+			};
+			buildConfigurationList = 71580FA41948E98F006ECE83 /* Build configuration list for PBXProject "SendField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71580FA01948E98F006ECE83;
+			productRefGroup = 71580FAA1948E98F006ECE83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71580FA81948E98F006ECE83 /* SendField */,
+				71580FC91948E98F006ECE83 /* SendFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71580FA71948E98F006ECE83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71580FC51948E98F006ECE83 /* Images.xcassets in Resources */,
+				71580FB71948E98F006ECE83 /* InfoPlist.strings in Resources */,
+				71580FC01948E98F006ECE83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71580FC81948E98F006ECE83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71580FD61948E98F006ECE83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71580FA51948E98F006ECE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71580FB91948E98F006ECE83 /* main.m in Sources */,
+				71580FC31948E98F006ECE83 /* SFViewController.m in Sources */,
+				71580FBD1948E98F006ECE83 /* SFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71580FC61948E98F006ECE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71580FD81948E98F006ECE83 /* SendFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71580FD01948E98F006ECE83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71580FA81948E98F006ECE83 /* SendField */;
+			targetProxy = 71580FCF1948E98F006ECE83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71580FB51948E98F006ECE83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71580FB61948E98F006ECE83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71580FBE1948E98F006ECE83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71580FBF1948E98F006ECE83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71580FD41948E98F006ECE83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71580FD51948E98F006ECE83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71580FD91948E98F006ECE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71580FDA1948E98F006ECE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71580FDC1948E98F006ECE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendField/SendField-Prefix.pch";
+				INFOPLIST_FILE = "SendField/SendField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71580FDD1948E98F006ECE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendField/SendField-Prefix.pch";
+				INFOPLIST_FILE = "SendField/SendField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71580FDF1948E98F006ECE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SendField.app/SendField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendField/SendField-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SendFieldTests/SendFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		71580FE01948E98F006ECE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SendField.app/SendField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendField/SendField-Prefix.pch";
+				INFOPLIST_FILE = "SendFieldTests/SendFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71580FA41948E98F006ECE83 /* Build configuration list for PBXProject "SendField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71580FD91948E98F006ECE83 /* Debug */,
+				71580FDA1948E98F006ECE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71580FDB1948E98F006ECE83 /* Build configuration list for PBXNativeTarget "SendField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71580FDC1948E98F006ECE83 /* Debug */,
+				71580FDD1948E98F006ECE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71580FDE1948E98F006ECE83 /* Build configuration list for PBXNativeTarget "SendFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71580FDF1948E98F006ECE83 /* Debug */,
+				71580FE01948E98F006ECE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71580FA11948E98F006ECE83 /* Project object */;
+}
