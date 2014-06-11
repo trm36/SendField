@@ -32,16 +32,44 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pEx-I2-0QN">
+                                <rect key="frame" x="20" y="169" width="280" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Click send field to send the value of the field" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="240" translatesAutoresizingMaskIntoConstraints="NO" id="JBX-Qa-Q3F">
+                                        <rect key="frame" x="20" y="18" width="240" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.3411764706" green="0.76470588240000004" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="JBX-Qa-Q3F" secondAttribute="trailing" constant="20" symbolic="YES" id="Bae-hT-vkc"/>
+                                    <constraint firstAttribute="bottom" secondItem="JBX-Qa-Q3F" secondAttribute="bottom" constant="20" symbolic="YES" id="Uom-3R-FFc"/>
+                                    <constraint firstItem="JBX-Qa-Q3F" firstAttribute="top" secondItem="pEx-I2-0QN" secondAttribute="top" constant="20" symbolic="YES" id="Xg8-LR-suC"/>
+                                    <constraint firstItem="JBX-Qa-Q3F" firstAttribute="leading" secondItem="pEx-I2-0QN" secondAttribute="leading" constant="20" id="dm7-a6-iIn"/>
+                                    <constraint firstAttribute="height" constant="110" id="zkQ-0T-Wlu"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="O4N-mt-oCZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="2y6-fl-EQj"/>
+                            <constraint firstItem="O4N-mt-oCZ" firstAttribute="top" secondItem="pEx-I2-0QN" secondAttribute="bottom" constant="20" id="NMd-xE-O1U"/>
+                            <constraint firstItem="pEx-I2-0QN" firstAttribute="trailing" secondItem="O4N-mt-oCZ" secondAttribute="trailing" id="OvR-ll-9xk"/>
+                            <constraint firstItem="pEx-I2-0QN" firstAttribute="leading" secondItem="O4N-mt-oCZ" secondAttribute="leading" id="Pyb-pX-cHi"/>
                             <constraint firstItem="O4N-mt-oCZ" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Ybh-6A-hZL"/>
                             <constraint firstAttribute="trailing" secondItem="O4N-mt-oCZ" secondAttribute="trailing" constant="20" symbolic="YES" id="YhS-2y-Cnr"/>
                             <constraint firstItem="xxU-H1-ejD" firstAttribute="top" secondItem="O4N-mt-oCZ" secondAttribute="bottom" constant="8" symbolic="YES" id="eTD-AW-33h"/>
                             <constraint firstItem="O4N-mt-oCZ" firstAttribute="trailing" secondItem="xxU-H1-ejD" secondAttribute="trailing" id="jxX-lz-MaF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="instructionLabel" destination="JBX-Qa-Q3F" id="Dz6-vK-Csa"/>
+                        <outlet property="sendButton" destination="xxU-H1-ejD" id="1gw-1O-LKs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,6 +10,9 @@
 
 @interface SFViewController ()
 
+@property (nonatomic, strong) IBOutlet UILabel *instructionLabel;
+@property (nonatomic, strong) IBOutlet UIButton *sendButton;
+
 @end
 
 @implementation SFViewController
@@ -18,6 +21,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLayoutConstraint *horizontalAlignmentConstraint = [NSLayoutConstraint constraintWithItem:self.instructionLabel attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.sendButton attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0.0];
+//    horizontalAlignmentConstraint.priority = UILayoutPriorityDefaultLow;
+    
+    [self.view addConstraint:horizontalAlignmentConstraint];
+    
 }
 
 - (void)didReceiveMemoryWarning
