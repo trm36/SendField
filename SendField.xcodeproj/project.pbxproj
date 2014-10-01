@@ -21,6 +21,7 @@
 		71580FCE1948E98F006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71580FB01948E98F006ECE83 /* UIKit.framework */; };
 		71580FD61948E98F006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71580FD41948E98F006ECE83 /* InfoPlist.strings */; };
 		71580FD81948E98F006ECE83 /* SendFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71580FD71948E98F006ECE83 /* SendFieldTests.m */; };
+		71CA532F19DBC9E800F1638C /* SentTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA532E19DBC9E800F1638C /* SentTextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		71580FD31948E98F006ECE83 /* SendFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendFieldTests-Info.plist"; sourceTree = "<group>"; };
 		71580FD51948E98F006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71580FD71948E98F006ECE83 /* SendFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendFieldTests.m; sourceTree = "<group>"; };
+		71CA532D19DBC9E800F1638C /* SentTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentTextViewController.h; sourceTree = "<group>"; };
+		71CA532E19DBC9E800F1638C /* SentTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentTextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				71580FBE1948E98F006ECE83 /* Main.storyboard */,
 				71580FC11948E98F006ECE83 /* SFViewController.h */,
 				71580FC21948E98F006ECE83 /* SFViewController.m */,
+				71CA532D19DBC9E800F1638C /* SentTextViewController.h */,
+				71CA532E19DBC9E800F1638C /* SentTextViewController.m */,
 				71580FC41948E98F006ECE83 /* Images.xcassets */,
 				71580FB31948E98F006ECE83 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71580FB91948E98F006ECE83 /* main.m in Sources */,
+				71CA532F19DBC9E800F1638C /* SentTextViewController.m in Sources */,
 				71580FC31948E98F006ECE83 /* SFViewController.m in Sources */,
 				71580FBD1948E98F006ECE83 /* SFAppDelegate.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				71580FDD1948E98F006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71580FDE1948E98F006ECE83 /* Build configuration list for PBXNativeTarget "SendFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				71580FE01948E98F006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

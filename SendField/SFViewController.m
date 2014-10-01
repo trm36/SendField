@@ -7,11 +7,13 @@
 //
 
 #import "SFViewController.h"
+#import "SentTextViewController.h"
 
 @interface SFViewController ()
 
 @property (nonatomic, strong) IBOutlet UILabel *instructionLabel;
 @property (nonatomic, strong) IBOutlet UIButton *sendButton;
+@property (nonatomic, strong) IBOutlet UITextField *textField;
 
 @end
 
@@ -33,6 +35,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    SentTextViewController *viewController = [segue destinationViewController];
+    [viewController updateSentText:self.textField.text];
 }
 
 @end
