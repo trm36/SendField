@@ -22,6 +22,7 @@
 		71580FD61948E98F006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71580FD41948E98F006ECE83 /* InfoPlist.strings */; };
 		71580FD81948E98F006ECE83 /* SendFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71580FD71948E98F006ECE83 /* SendFieldTests.m */; };
 		71CA532F19DBC9E800F1638C /* SentTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA532E19DBC9E800F1638C /* SentTextViewController.m */; };
+		71CA533219DCA0A000F1638C /* ReceivedTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA533119DCA0A000F1638C /* ReceivedTextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		71580FD71948E98F006ECE83 /* SendFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendFieldTests.m; sourceTree = "<group>"; };
 		71CA532D19DBC9E800F1638C /* SentTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentTextViewController.h; sourceTree = "<group>"; };
 		71CA532E19DBC9E800F1638C /* SentTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentTextViewController.m; sourceTree = "<group>"; };
+		71CA533019DCA0A000F1638C /* ReceivedTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedTextViewController.h; sourceTree = "<group>"; };
+		71CA533119DCA0A000F1638C /* ReceivedTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedTextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				71580FC21948E98F006ECE83 /* SFViewController.m */,
 				71CA532D19DBC9E800F1638C /* SentTextViewController.h */,
 				71CA532E19DBC9E800F1638C /* SentTextViewController.m */,
+				71CA533019DCA0A000F1638C /* ReceivedTextViewController.h */,
+				71CA533119DCA0A000F1638C /* ReceivedTextViewController.m */,
 				71580FC41948E98F006ECE83 /* Images.xcassets */,
 				71580FB31948E98F006ECE83 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CA533219DCA0A000F1638C /* ReceivedTextViewController.m in Sources */,
 				71580FB91948E98F006ECE83 /* main.m in Sources */,
 				71CA532F19DBC9E800F1638C /* SentTextViewController.m in Sources */,
 				71580FC31948E98F006ECE83 /* SFViewController.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "SFViewController.h"
 #import "SentTextViewController.h"
+#import "ReceivedTextViewController.h"
 
 @interface SFViewController ()
 
@@ -41,6 +42,15 @@
     
     SentTextViewController *viewController = [segue destinationViewController];
     [viewController updateSentText:self.textField.text];
+}
+
+- (IBAction)receive:(id)sender {
+    
+    ReceivedTextViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([ReceivedTextViewController class])];
+    self.textField.text = viewController.receivedText;
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+
 }
 
 @end

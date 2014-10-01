@@ -3,6 +3,7 @@
     <dependencies>
         <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -53,10 +54,24 @@
                                     <constraint firstAttribute="height" constant="110" id="zkQ-0T-Wlu"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RA-he-EAg">
+                                <rect key="frame" x="81" y="307" width="93" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="knU-j0-bY0"/>
+                                </constraints>
+                                <state key="normal" title="Receive Field">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="receive:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qja-uh-41N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="6RA-he-EAg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="65" id="2P3-xs-EPy"/>
                             <constraint firstItem="O4N-mt-oCZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="2y6-fl-EQj"/>
+                            <constraint firstItem="6RA-he-EAg" firstAttribute="baseline" secondItem="xxU-H1-ejD" secondAttribute="baseline" id="724-9s-dpN"/>
                             <constraint firstItem="O4N-mt-oCZ" firstAttribute="top" secondItem="pEx-I2-0QN" secondAttribute="bottom" constant="20" id="NMd-xE-O1U"/>
                             <constraint firstItem="pEx-I2-0QN" firstAttribute="trailing" secondItem="O4N-mt-oCZ" secondAttribute="trailing" id="OvR-ll-9xk"/>
                             <constraint firstItem="pEx-I2-0QN" firstAttribute="leading" secondItem="O4N-mt-oCZ" secondAttribute="leading" id="Pyb-pX-cHi"/>
@@ -76,6 +91,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="671" y="136"/>
+        </scene>
+        <!--Received Text View Controller-->
+        <scene sceneID="BE6-DA-WZN">
+            <objects>
+                <viewController storyboardIdentifier="ReceivedTextViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="usf-dg-aY0" customClass="ReceivedTextViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qwi-vz-OqZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="sbE-pc-Skg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GOr-4Q-w1h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Received" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9R-3w-EII">
+                                <rect key="frame" x="124" y="273" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H9R-3w-EII" firstAttribute="centerX" secondItem="GOr-4Q-w1h" secondAttribute="centerX" id="08f-NN-d7w"/>
+                            <constraint firstItem="H9R-3w-EII" firstAttribute="top" secondItem="Qwi-vz-OqZ" secondAttribute="bottom" constant="253" id="wqk-eA-4e7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nU3-XC-tJl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671" y="817"/>
         </scene>
         <!--Sent Text View Controller-->
         <scene sceneID="6MI-YA-ee1">
